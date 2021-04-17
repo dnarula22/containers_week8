@@ -18,8 +18,8 @@ class Node():
 
     def __init__(self, value, left=None, right=None):
         self.value = value
-        self.left = left    # NOTE: left should always be a Node
-        self.right = right  # NOTE: right should always be a Node
+        self.left = left
+        self.right = right
 
     def __str__(self):
         ret = '('
