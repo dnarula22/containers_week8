@@ -248,6 +248,7 @@ class BST(BinaryTree):
                 placeholder = placeholder.right
             node.value = placeholder.value
             node.left = BST._remove(node.left, node.value)
+        return node
 
     def remove_list(self, xs):
         '''
